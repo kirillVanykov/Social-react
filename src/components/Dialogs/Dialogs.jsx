@@ -20,7 +20,8 @@ const Dialogs = (props) => {
         {id: 2, message: 'How is your it-kamasutra?'},
         {id: 3, message: 'Yo'},
         {id: 4, message: 'Yo'},
-        {id: 5, message: 'Yo'}
+        {id: 5, message: 'Yo'},
+        {id: 6, message: 'sfo'}
     ]
 
     let dialogsElements =  dialogs.map( d => <DialogItem name={d.name} id={d.id} />  );
