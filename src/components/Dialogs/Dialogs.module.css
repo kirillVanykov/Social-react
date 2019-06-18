@@ -16,7 +16,21 @@
     padding: 10px;
 }
 
-.messages .message {
-    color: white;
+.message{
+  color: white;
 }
 
+.me > .iconMessage{
+  width: 20px;
+  height: 20px;
+  float: right;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnXb5AHLEfuArSDO0wFl_7K7fh2k2OJZG-D2zWpuB5VKkMm4pb");
+  background-size: cover;
+}
+.you > .iconMessage{
+  width: 20px;
+  height: 20px;
+  float: left;
+  background-image: url("https://o-viber.ru/wp-content/uploads/2017/08/mujskie_avatarki-5.png");
+  background-size: cover;
+}
