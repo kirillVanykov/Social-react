@@ -13,6 +13,33 @@
     grid-area: c;
     background-color: cornflowerblue;
 }
+.me, .you{
+  margin-bottom: 15px;
+}
+.me > div:first-child{
+  width: 40px;
+  height: 40px;
+  float: right;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnXb5AHLEfuArSDO0wFl_7K7fh2k2OJZG-D2zWpuB5VKkMm4pb");
+  background-size: cover;
+  border-radius: 50%;
+  margin-left: 10px;
+}
+.me > div:last-child{
+  text-align: right;
+}
+.you > div:last-child{
+  text-align: left;
+}
+.you > div:first-child{
+  width: 40px;
+  height: 40px;
+  float: left;
+  background-image: url("https://o-viber.ru/wp-content/uploads/2017/08/mujskie_avatarki-5.png");
+  background-size: cover;
+  border-radius: 50%;
+  margin-right: 10px;
+}
 
 
 
