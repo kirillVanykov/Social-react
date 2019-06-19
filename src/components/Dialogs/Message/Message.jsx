@@ -6,7 +6,7 @@ const Message = (props) => {
 
 
     return (
-      <div className={whoWriting1}>
+      <div className={s[whoWriting1]}>
         <div className={s.iconMessage}></div>
         <div className={s.message}>{props.message}</div>
       </div>

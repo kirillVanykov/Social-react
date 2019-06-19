@@ -11,11 +11,12 @@ let state = {
     messages: [
            {id: 1, message: 'Hi', whoWriting: 'me'},
            {id: 2, message: 'How is your it-kamasutra?', whoWriting: 'you'},
-           {id: 3, message: 'Yo', whoWriting: 'me'},
+           {id: 3, message: 'Yo', whoWriting: 'you'},
            {id: 4, message: 'Yo', whoWriting: 'you'},
            {id: 5, message: 'Yo', whoWriting: 'me'},
            {id: 6, message: 'sfo', whoWriting: 'you'},
-           {id: 6, message: 'sfo', whoWriting: 'me'}
+           {id: 6, message: 'sfo', whoWriting: 'me'},
+           {id: 7, message: 'qq', whoWriting: 'me'}
        ],
     dialogs: [
              {id: 1, name: 'Dimych'},
