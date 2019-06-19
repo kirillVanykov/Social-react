@@ -16,7 +16,9 @@ let state = {
            {id: 5, message: 'Yo', whoWriting: 'me'},
            {id: 6, message: 'sfo', whoWriting: 'you'},
            {id: 6, message: 'sfo', whoWriting: 'me'},
-           {id: 7, message: 'qq', whoWriting: 'me'}
+           {id: 7, message: 'Привет', whoWriting: 'me'},
+           {id: 8, message: 'как дела', whoWriting: 'me'},
+           {id: 9, message: 'Норм', whoWriting: 'you'}
        ],
     dialogs: [
              {id: 1, name: 'Dimych'},
@@ -26,7 +28,7 @@ let state = {
              {id: 5, name: 'Viktor'},
              {id: 6, name: 'Valera'},
              {id: 7, name: 'Kirill'},
-             {id: 7, name: 'Vika'}
+             {id: 8, name: 'Vika'}
          ]
   }
 }
